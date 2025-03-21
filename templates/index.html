@@ -7,13 +7,11 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    
+
 <h1>Kaiki Nattan</h1>
 
-<a href="https://www.exemplo.com" target="_blank">Sobre mim</a><br>
-<a href="https://www.exemplo.com" target="_blank">Habilidades e competências</a><br>
-<a href="https://www.exemplo.com" target="_blank">Serviços contratáveis</a> <br>
-<a href="https://www.exemplo.com" target="_blank">Meus projetos</a> 
+<a href="{{ url_for('competencias') }}">Habilidades e competências</a><br>
+<a href="{{ url_for('projetos') }}">Meus projetos</a>
 
 
 

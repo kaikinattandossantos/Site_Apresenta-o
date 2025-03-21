@@ -4,26 +4,17 @@ import pyodbc
 app = Flask(__name__)
 
 
-@app.route('/')
-def home():
-  return render_template('index.html') 
+@app.route("/")
+def index():
+  return render_template("index.html") 
 
-
-@app.route('/sobremim')
-def sobremim():
-   return render_template('sobremim.html')
-
-
-@app.route('/Competencias')
+@app.route("/competencias")
 def competencias():
-   return render_template('competencias.html')
+  return render_template("comp.html") 
 
-
-@app.route('/Projetos')
-def Projetos():
-   return render_template('Projetos.html')
-
-
+@app.route("/projetos")
+def projetos():
+  return render_template("projetos.html") 
 
 if __name__ == '__main__':
     app.run(debug=True)
