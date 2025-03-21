@@ -5,11 +5,13 @@
 }
 
 body {
+    font-family: cursive;
     background-color: rgb(194, 157, 228);
     padding-top: 120px;
     padding-bottom: 50px;
     text-align: center;
 }
+
 
 a {
     text-decoration: none;
@@ -17,9 +19,9 @@ a {
 
 .Backend li{
     background-color: #f4f4f4;
-    padding: 10px;
+    padding-bottom: 10px;
     border-radius: 4px;
-    margin-bottom: 50px; /*espaçamento entre itens*/
+    margin-bottom: 12px; /*espaçamento entre itens*/
     list-style-type: none; 
 
 }
@@ -28,12 +30,13 @@ a {
     background-color: #f4f4f4;
     padding: 10px;
     border-radius: 4px;
-    list-style-type: none; 
     padding-bottom: 0%;
+    list-style-type: none; 
 }
 
 .colunas {
 
+    font-size: 20px;   
     display:flex; 
     justify-content: center;
     flex-wrap: wrap;
@@ -56,5 +59,20 @@ img {
 .react_logo img{
     width: 100%; /* Largura máxima */
     height: auto; /* Altura ajustada automaticamente */
-    max-width: 300px; /* Largura máxima da imagem */
+    max-width: 330px; /* Largura máxima da imagem */
+}
+
+
+.quadradoF {
+    background-color: #fff;
+    border-radius: 15px;
+    height: auto;
+    width: auto;
+}
+
+.quadradoB {
+    background-color: #fff;
+    border-radius: 15px;
+    height: auto;
+    width: 320px;
 }
