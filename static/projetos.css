@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box; 
 }
+
+body {
+    background-color: rgb(182, 255, 231);
+    font-family: cursive;
+    text-align: center;
+    padding: 70px;
+}
+
+a {
+text-decoration: none;
+}
+
+
+.calculadoras_links {
+    display:flex; 
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 100px ;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px ;
+    padding: 30px;
+
+}
